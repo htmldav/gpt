@@ -23,5 +23,5 @@ def download_video(url):
         print(f"Ошибка: {e}")
 
 if __name__ == "__main__":
-    video_url = input("Введите URL видео: ")
+    video_url = input("Введите URL  видео: ")
     download_video(video_url)
